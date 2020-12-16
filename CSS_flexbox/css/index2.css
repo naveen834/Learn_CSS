@@ -1,0 +1,37 @@
+html,
+body {
+  background: #ffeead;
+  margin: 10px;
+  height: 100%;
+}
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+  /* flex: 1; */
+}
+/* Responsive Navbar */
+.container > div:nth-child(1){
+  background: #96ceb4;
+  /* flex: 1 1 200px; */
+  /* flex-basis: 200px; */
+  flex-grow: 1;
+}
+.container > div:nth-child(2){
+  background: #ff6f69;
+  flex-grow: 1;
+  flex-shrink: 5;
+}
+.container > div:nth-child(3){
+  background: #88d8b0;
+  order: -1;
+  flex-grow: 1;
+}
+.container{
+  /* width:300px; */
+  border:5px solid #ffcc5c;
+  display:flex;
+  justify-content:flex-end;
+  flex-wrap: wrap;
+}

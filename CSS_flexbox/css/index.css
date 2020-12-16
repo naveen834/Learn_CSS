@@ -1,0 +1,41 @@
+/* flex goes from left to right. */
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+  /* flex: 1; */
+  /* flex-grow flex-shrink flex-basis*/
+  /* automatically allocates space */
+  /* flexbox has main axis and cross axis */
+}
+html,
+body {
+  background: #ffeead;
+  margin: 10px;
+  height: 100%;
+}
+.container > div:nth-child(1){
+  background: #96ceb4;
+  /* align-self: flex-end; */
+  /* flex: 0.5; */
+  /* margin-right: auto; */
+}
+.container > div:nth-child(2){
+  background: #ff6f69;
+  /* flex:2; */
+}
+.container > div:nth-child(3){
+  background: #88d8b0;
+  /* align-self: flex-start; */
+  /* flex: 0.5; */
+  /* margin-left: auto; */
+}
+.container{
+  border:5px solid #ffcc5c;
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  height: 100%;
+  /* align-items:flex-end; */
+}

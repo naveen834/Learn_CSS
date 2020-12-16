@@ -1,0 +1,25 @@
+/* classes */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: gray;
+}
+/* id */
+#t1{
+  font-size: 5 rem;
+}
+/* classes */
+.uppercase{
+  text-transform: uppercase;
+}
+/* div/span */
+div{
+  color: darkgreen;
+  background: lightslategray;
+}
+span{
+  color: springgreen;
+  text-transform: uppercase;
+}

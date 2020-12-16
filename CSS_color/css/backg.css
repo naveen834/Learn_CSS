@@ -1,0 +1,42 @@
+/* Last Rule Order */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 400px; /*rule overriden*/
+  color: red;
+  min-height: 100vh; /* last rule overrides*/
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* Background Size */
+/* background-position */
+/* background-attachment */
+.big-img {
+  background: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small-img {
+  border: 2px solid red;
+  background: url('./small.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-position: 20% 50%; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url('./smoothie.jpg');
+  background-size: no-repeat;
+  /* background-position: right; */
+  background-position: center;
+  background-attachment: fixed;
+}

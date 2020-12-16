@@ -1,0 +1,25 @@
+/* Color Properties */
+/* Color Background color */
+/* RGB --> red,green,blue */
+/* RGBA-->A for opacity */
+/* HSL-->Search Yourself */
+/* Hex Values #RRGGBB */
+#first {
+  color: #270325;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#second {
+  color: #fff;
+  background: #00ff00;
+}
+body {
+  background: rgba(34, 171, 199, 0.3);
+}
+#three {
+  color: rgb(20, 54, 148);
+  background: rgba(132, 1, 1, 0.5);
+}
+#four {
+  color: rgb(132, 122, 156);
+  background: rgb(10, 20, 30);
+}

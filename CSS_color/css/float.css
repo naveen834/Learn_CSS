@@ -1,0 +1,27 @@
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+  background: yellow;
+  margin-top: 40px;
+}
+img {
+  float: right;
+  /* height: 600px; */
+}
+p {
+  clear: left;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: right;
+  position: relative;
+  top: 20px;
+  /* left:20rem; */
+  right: -2rem;
+}
+.special {
+  background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: -25%;
+  right: 25%;
+}

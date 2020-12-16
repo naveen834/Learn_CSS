@@ -1,0 +1,55 @@
+/* pseudo elements ::before ::after CONTENT not element
+content:'' --- always required 
+img --- does not work because is already the content*/
+p::before {
+  content: 'hello  ';
+  font-weight: bold;
+  display: block;
+  background: #ff00ff;
+  font-size: 2rem;
+  color: red;
+}
+p::after {
+  content: ' hello  ';
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+  display: block;
+  width: 100px;
+  height: 35px;
+  background: grey;
+}
+div {
+  width: 60vw;
+  margin: 100px auto;
+  position: relative;
+  /* border: 2px solid red; */
+}
+img {
+  width: 100%;
+  display: block;
+}
+div::before {
+  content: '';
+  border: 2px solid red;
+  /* background: grey; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -80px;
+  left: -80px;
+  z-index: -1;
+}
+div::after {
+  content: '';
+  /* border: 2px solid red; */
+  background: grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -1;
+}

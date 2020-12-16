@@ -1,0 +1,43 @@
+/* font-size, width,height,pixels */
+*{
+  margin: 1%;
+}
+h3 {
+  font-size: 30px;
+  width: 250px;
+  height: 70px;
+  background: maroon;
+}
+body{
+  background: rgba(5, 226, 79, 0.45);
+}
+/* Percent Values-Relative */
+.outer {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+/* 
+em - Relative depends on parent
+1em = 16px default browser style
+1em = base value
+ */
+/* vh - height - percent of screen
+ vw - width - percent of screen*/
+.relative {
+  font-size: 2em;
+}
+.absolute {
+  font-size: 64px;
+}
+.viewper {
+  width: 50vw;
+  height: 25vh;
+  background: red;
+}

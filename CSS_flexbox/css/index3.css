@@ -1,0 +1,47 @@
+html,
+body {
+  background: #ffeead;
+  margin: 10px;
+  height: 100%;
+}
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  /* flex: 1; */
+  background: blue;
+}
+.container > li {
+  align-content: stretch;
+  width: 100%;
+  background: #ffeead;
+  flex: 1;
+  text-align: center;
+  margin-bottom: 5px;
+}
+/*.search{
+  flex: 1;
+} */
+@media all and (min-width: 1000px) {
+  .container {
+    background: #ffeead;
+  }
+}
+@media all and (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .container > li {
+    flex: 1 1 50%;
+    text-align: center;
+  }
+  .search > input {
+    text-align: center;
+  }
+}
+@media all and (max-width: 600px) {
+  .container > li {
+    flex: 1 1 100%;
+  }
+}

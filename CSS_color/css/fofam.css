@@ -1,0 +1,26 @@
+/* 
+font-size font-family
+ */
+/* text-align, text-indent */
+ /* google fonts--import */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.main {
+  font-family: 'Caveat', cursive;
+  text-align: right;
+}
+/* font-weight, font-style */
+.subheading {
+  text-indent:-200px;
+}
+.one {
+  font-weight: 600;
+  text-indent: 20rem;
+}
+.two {
+  text-align: left;
+  font-weight: 900;
+}

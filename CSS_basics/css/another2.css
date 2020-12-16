@@ -1,0 +1,15 @@
+/* Last rule and Specificity * Universal Selector*/
+.red  {
+  color: greenyellow;
+}
+p {
+  color: blueviolet;
+}
+p {
+  color: red;
+}
+/* if two rules are defined on same paragraph, last rule will be applied */
+*{
+  color:blue; 
+}
+/* [*] is the least powerful */

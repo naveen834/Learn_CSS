@@ -1,0 +1,50 @@
+/* 
+transform:translate(), rotate(), scale(), skew()
+transition (change over time)
+animation: (change over time with points) 
+*/
+/* transform:translate(), scale(), skew(), rotate()  */
+a {
+  position: absolute;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  position: relative;
+  top: 25px;
+}
+div:hover {
+  background: coral;
+}
+/* transition-delay
+shorthand
+ */
+.one {
+  background: red;
+  transform: translateX(50%);
+  left: 30px;
+  transform: rotate(135deg);
+  transform: skew(20deg);
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+  transition-delay: 0.75s;
+}
+.one:hover {
+  border-radius: 50%;
+}
+.two {
+  background: blue;
+  transform: skew(20deg, 20deg);
+}
+.three {
+  background: green;
+  transform: translateX(-85px);
+  transform: scale(1.4);
+  /* transition: background 3s 2s,border-radius 3s 2s ; */
+  transition: all 3s 2s;
+}
+.three:hover {
+  border-radius: 50%;
+}
+

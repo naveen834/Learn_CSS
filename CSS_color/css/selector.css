@@ -1,0 +1,59 @@
+/* Basic Selectors */
+/* descendent and child combinators */
+* {
+  color: red;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+p {
+  letter-spacing: 20px;
+}
+div h1 {
+  color: black;
+}
+div > h1 {
+  color: blue;
+}
+/* .header h1{
+  color: green;
+ } */ /* more specific,so more powerful */
+p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 3rem;
+}
+/* :hover */
+p:hover {
+  font-size: 30px;
+  color: aqua;
+}
+.header:hover {
+  background: magenta;
+  /* color: grey; */
+}
+h1:hover {
+  color: white;
+}
+/* :link :visited :hover :active */
+a:link {
+  color: rgba(30, 13, 189, 0.7);
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: rgb(12, 56, 177);
+}
+/* a : active {
+  color:black;
+} */

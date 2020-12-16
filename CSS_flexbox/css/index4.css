@@ -1,0 +1,27 @@
+.parent {
+  border: 5px solid lightcoral;
+}
+.item {
+  /* height: 50px; */
+  margin: 5px;
+  background: deepskyblue;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+  /* flex:1; */
+  /* width: 30%; */
+}
+/* flex-stuff */
+.parent {
+  display: flex;
+  height:200px;
+  /* align-items: center; y-axis */
+  flex-direction: column;
+  flex-wrap:wrap ;
+  /* align-content:center; */
+  /* justify-content: flex-end , space-between , space-around; */   /* x-axis*/
+}
+.item:nth-child(2){
+  flex-basis:3px;
+}

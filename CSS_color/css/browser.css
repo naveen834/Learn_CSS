@@ -1,0 +1,27 @@
+/* 
+calc()
+perform math operations + - * /
+mix and match values
+*/
+body {
+  margin: 0%;
+  background: grey;
+}
+h2 {
+  color: red;
+  font-size: 60px;
+}
+.zeiss {
+  background: hotpink;
+  height: 30px;
+}
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px - 30px);
+}

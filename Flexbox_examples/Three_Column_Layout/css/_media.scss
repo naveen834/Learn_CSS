@@ -1,0 +1,19 @@
+.example-media,
+.search-group {
+  display: flex;
+  min-width: 0px;
+  img {
+    margin-right: 10px;
+    width: 100px;
+  }
+  .content {
+    flex: 1;
+  }
+}
+input {
+  padding: 10px;
+  &[type='text'] {
+    flex: 1;
+    max-width: 800px;
+  }
+}
